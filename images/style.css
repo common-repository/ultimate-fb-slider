@@ -1,0 +1,33 @@
+#facebook_slider {
+	position: relative;
+}
+
+#fsbbox1 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:5px solid #3c95d9;
+	background-color: #fff;
+	position: fixed;
+}
+
+#fsbbox2 {
+	overflow: hidden;
+	text-align: left;
+}
+
+#fsbbox1 img {
+	position: absolute; 
+	top: 0px; 
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+
+#fsbbox1 iframe {
+	border:0px;
+	overflow: hidden; 
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
